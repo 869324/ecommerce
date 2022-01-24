@@ -102,7 +102,7 @@ button {
 }
 
 #cart2 {
-    fill: #fff;
+    filter: invert(.5);
 }
 
 #desc {
@@ -166,6 +166,10 @@ p {
     border: 2px solid hsla(26, 100%, 55%, 100%);
 }
 
+#menu {
+    visibility: collapse;
+}
+
 @media (max-width: 600px) {
     nav {
         border-color: transparent;
@@ -225,5 +229,10 @@ p {
 
     a {
         visibility: collapse;
+    }
+
+    #menu {
+        visibility: visible;
+        margin-right: 10px;
     }
 }
