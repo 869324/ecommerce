@@ -1,0 +1,229 @@
+@import url(https://fonts.google.com/specimen/Kumbh+Sans);
+
+nav {
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+    margin: auto;
+    padding: 10px;
+}
+
+main {
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+}
+
+#main_pic {
+    width: 70%;
+    border-radius: 10px;
+}
+
+#thumbnails {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.thumbnail {
+    width: 20%;
+    border-radius: 10px;
+}
+
+#images, #head {
+    display: flex;
+    align-items: center;
+}
+
+#links {
+    margin-left: 40px;
+}
+
+a {
+    color: black;
+    text-decoration-line: none;
+    margin: 10px;
+    opacity: 0.6;
+}
+
+#cart {
+    margin-right: 40px;
+}
+
+#avatar {
+    width: 50px;
+}
+
+#pics {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#text {
+    width: 50%;
+}
+
+#info {
+    margin-bottom: 20px;
+}
+
+#price {
+    font-weight: bold;
+    font-size: 22px;
+    font-family: "kumbh Sans", sans-serif;
+}
+
+#button {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(26, 100%, 55%);
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+button {
+    border-color: transparent;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+}
+
+#cart2 {
+    fill: #fff;
+}
+
+#desc {
+    color: hsl(26, 100%, 55%);
+    font-family: "kumbh Sans", sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-family: "kumbh Sans", sans-serif;
+    font-weight: 700;
+}
+
+p {
+    width: 70%;
+    font-family: "kumbh Sans", sans-serif;
+    font-weight: 400;
+    opacity: 0.6;
+    line-height: 1.6;
+}
+
+#amounts {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#discount {
+    color: hsl(26, 100%, 55%);
+    background-color: hsl(25, 100%, 94%);
+    margin-left: 20px;
+    font-family: "kumbh Sans", sans-serif;
+}
+
+#total {
+    opacity: 0.6;
+    font-family: "kumbh Sans", sans-serif;
+}
+
+#actions {
+    width: 70%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#calc {
+    background-color: hsl(220, 14%, 75%);
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.selected {
+    opacity: 0.5;
+    border: 2px solid hsla(26, 100%, 55%, 100%);
+}
+
+@media (max-width: 600px) {
+    nav {
+        border-color: transparent;
+    }
+
+    main {
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    #thumbnails {
+        visibility: collapse;
+    }
+
+    #actions {
+        width: 90vw;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #info {
+        width: 80vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    #pics, #main_pic {
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    #text {
+        width: 100%;
+    }
+
+    p {
+        width: 90vw;
+        margin-left: 10px;
+    }
+
+    #desc, h1 {
+        margin-left: 10px;
+    }
+
+    #calc {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    #button {
+        width: 90%;
+        margin: auto;
+    }
+
+    a {
+        visibility: collapse;
+    }
+}
